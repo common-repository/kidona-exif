@@ -1,0 +1,24 @@
+/* 
+ * these are my customiations to jQuery UI
+ *
+ */
+
+/* this is to make the dialog widget look like wordpress' styling
+ *
+ * it moves the dialog to the top and creates a dark grey underlayment
+ * to highlight it
+ */
+
+.ui-widget-overlay {
+        z-index: 100101;
+        background-color: #000;
+        opacity: .7;
+}
+
+.ui-front {
+        z-index: 100101;
+}
+
+.ui-dialog {
+        z-index: 100102;
+}
